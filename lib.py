@@ -19,12 +19,16 @@ class Calculator:
             return sys.exit(1)
         return self.angka1 / self.angka2
 
+    def pangkat(self):
+        return self.angka1**self.angka2
+
     def result(self):
         func = [
           (self.add(), 'Penjumlahan'),
           (self.substract(), 'Pengurangan'), 
           (self.multiply(), 'Perkalian'),
-          (self.divide(), 'Pembagian')
+          (self.divide(), 'Pembagian'),
+ 	  (self.pangkat(), 'Perpangkatan')
         ]
         hasil = []
         for fun, desc in func:

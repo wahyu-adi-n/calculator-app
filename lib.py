@@ -19,7 +19,7 @@ class Calculator:
             return sys.exit(1)
         return self.angka1 / self.angka2
 
-    def printInfo(self):
+    def result(self):
         func = [
           (self.add(), 'Penjumlahan'),
           (self.substract(), 'Pengurangan'), 

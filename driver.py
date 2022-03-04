@@ -1,4 +1,4 @@
-from library import *
+from lib import *
 
 def main():
     c = Calculator(10,20)
